@@ -10,6 +10,9 @@ public class starscript : MonoBehaviour {
     public float maxLength;
     public GameObject starManager;
     public bool wasHit;
+
+    public GameObject star2;
+    public GameObject star1;
     // Use this for initialization
     void Start ()
     {
@@ -17,6 +20,7 @@ public class starscript : MonoBehaviour {
         starManager = GameObject.FindWithTag("StarManager");
         maxLength = starManager.GetComponent<StarManager>().maxDistance;
         force = starManager.GetComponent<StarManager>().force;
+
     }
 	
 	// Update is called once per frame
@@ -28,12 +32,12 @@ public class starscript : MonoBehaviour {
 
     void OnEnable()
     {
-        intItem.OnClick += StopStar;
+        intItem.OnOut += StopStar;
     }
 
     void OnDisable()
     {
-        intItem.OnClick -= StopStar;
+        intItem.OnOut -= StopStar;
     }
     
     void NormalMove() // The normal movement of the star, centered around the origin

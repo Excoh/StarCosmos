@@ -93,6 +93,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="starcosmos.CSharp.Plugins.csproj">
+      <Project>{660B4742-72BB-2A0B-139B-37A87A6CE9B0}</Project>
+      <Name>starcosmos.CSharp.Plugins</Name>
+    </ProjectReference>
     <ProjectReference Include="starcosmos.CSharp.csproj">
       <Project>{C6E9C0B8-4390-4D5F-C1C0-E5198E6588E4}</Project>
       <Name>starcosmos.CSharp</Name>
@@ -103,6 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\Assets\OSIG_Readme.txt" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\VRSampleScenes\Fonts\LICENSE.txt" />
     <None Include="Assets\VRSampleScenes\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\VRSampleScenes\Shaders\SeparableAlpha.shader" />

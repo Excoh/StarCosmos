@@ -9,6 +9,9 @@ namespace VRStandardAssets.Utils
     {
         [SerializeField] private float m_RenderScale = 1.4f;
 
+        public GameObject MainCamera;
+        public VRCameraFade camFade;
+
 
         private static VRDeviceManager s_Instance;
 
@@ -41,6 +44,8 @@ namespace VRStandardAssets.Utils
             }
 
             SetupVR ();
+
+            camFade = MainCamera.GetComponent<VRCameraFade>();
         }
 
 

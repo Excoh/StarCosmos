@@ -63,7 +63,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="starcosmos.CSharp.Plugins.csproj">
+      <Project>{660B4742-72BB-2A0B-139B-37A87A6CE9B0}</Project>
+      <Name>starcosmos.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\PowerUp\Scripts\CustomizablePowerUp.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\PowerUpManager.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\PowerUpRotation.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\ScaleParticles.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\TakeablePowerUp.cs" />
+    <Compile Include="Assets\PowerUp\Scripts\Utility\Singleton.cs" />
     <Compile Include="Assets\Scripts\StarManager.cs" />
+    <Compile Include="Assets\Scripts\cameramove.cs" />
+    <Compile Include="Assets\Scripts\findcentroid.cs" />
+    <Compile Include="Assets\Scripts\starnamegenerator.cs" />
     <Compile Include="Assets\Scripts\starscript.cs" />
     <Compile Include="Assets\VRSampleScenes\Scripts\Common\SessionData.cs" />
     <Compile Include="Assets\VRSampleScenes\Scripts\Examples\ExampleInteractiveItem.cs" />
@@ -126,6 +141,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\Assets\OSIG_Readme.txt" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\VRSampleScenes\Fonts\LICENSE.txt" />
     <None Include="Assets\VRSampleScenes\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\VRSampleScenes\Shaders\SeparableAlpha.shader" />

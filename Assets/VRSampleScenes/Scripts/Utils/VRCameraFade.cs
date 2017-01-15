@@ -59,6 +59,12 @@ namespace VRStandardAssets.Utils
             }
         }
 
+        public void FadeNow(float duration, bool fadeAudio)
+        {
+            m_FadeImage.color = m_FadeColor;
+            FadeIn(duration, fadeAudio);
+        }
+
         
         // Since no duration is specified with this overload use the default duration.
         public void FadeOut(bool fadeAudio)
@@ -140,7 +146,7 @@ namespace VRStandardAssets.Utils
         }
 
 
-        private IEnumerator BeginFade(Color startCol, Color endCol, float duration)
+        public IEnumerator BeginFade(Color startCol, Color endCol, float duration)
         {
             // Fading is now happening.  This ensures it won't be interupted by non-coroutine calls.
             m_IsFading = true;

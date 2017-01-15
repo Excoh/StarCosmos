@@ -6,7 +6,7 @@ public class findcentroid : MonoBehaviour {
 
 	public List<Transform> targets;
 
-	private Vector3 FindCentroid ( List< Transform > targets ) {
+	public Vector3 FindCentroid ( List< Transform > targets ) {
 
 		Vector3 centroid;
 		Vector3 minPoint = targets[ 0 ].position;
@@ -36,7 +36,7 @@ public class findcentroid : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		print (FindCentroid(targets).x + "x " + FindCentroid(targets).y + "y " + FindCentroid(targets).z + "z");
+		//print (FindCentroid(targets).x + "x " + FindCentroid(targets).y + "y " + FindCentroid(targets).z + "z");
 	}
 	
 	// Update is called once per frame
