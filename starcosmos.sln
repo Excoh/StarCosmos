@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "starcosmos.CSharp", "starcosmos.CSharp.csproj", "{C6E9C0B8-4390-4D5F-C1C0-E5198E6588E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "starcosmos.CSharp.Editor", "starcosmos.CSharp.Editor.csproj", "{D8B99106-F4D2-325F-B91D-3BF7ADC4C667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6E9C0B8-4390-4D5F-C1C0-E5198E6588E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E9C0B8-4390-4D5F-C1C0-E5198E6588E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E9C0B8-4390-4D5F-C1C0-E5198E6588E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E9C0B8-4390-4D5F-C1C0-E5198E6588E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B99106-F4D2-325F-B91D-3BF7ADC4C667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B99106-F4D2-325F-B91D-3BF7ADC4C667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B99106-F4D2-325F-B91D-3BF7ADC4C667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B99106-F4D2-325F-B91D-3BF7ADC4C667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
