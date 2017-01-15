@@ -236,9 +236,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Gaze at the yellow spheres to make them stop.
+  m_Text: '<b> Look at</b> the yellow spheres to make them stop.
 
-    Press the <b>MIDDLE BUTTON</b> to see your creation!
+    Press the middle button to see your creation!
 
     The more spheres you catch the better trhe creation.'
 --- !u!222 &100025130
